@@ -1,7 +1,6 @@
 let value = "";
 let show = document.querySelector("#show");
 let count = 0;
-let lastOperator = "";
 let temp;
 
 function qSelectors() {
