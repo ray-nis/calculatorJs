@@ -152,7 +152,6 @@ function operators() {
             value = "";
             show.innerHTML = num1.toString();
             lastOperator = "plus";
-            console.log("n1 " + num1)
        }
 
        else {
@@ -162,7 +161,6 @@ function operators() {
             num2 = null;
             show.innerHTML = num1.toString();
             lastOperator = "plus";
-            console.log("n2 " + num2)
        }
    });
 
