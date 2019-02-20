@@ -8,7 +8,6 @@ function qSelectors() {
         count++;
         if (count >= 2) {
             temp = eval(value);
-            console.log(temp);
             value = temp + " + ";
             show.innerHTML = value;
         }
@@ -22,7 +21,6 @@ function qSelectors() {
         count++;
         if (count >= 2) {
             temp = eval(value);
-            console.log(temp);
             value = temp + " - ";
             show.innerHTML = value;
         } else {
@@ -35,7 +33,6 @@ function qSelectors() {
         count++;
         if (count >= 2) {
             temp = eval(value);
-            console.log(temp);
             value = temp + " * ";
             show.innerHTML = value;
         } else {
@@ -48,7 +45,6 @@ function qSelectors() {
         count++;
         if (count >= 2) {
             temp = eval(value);
-            console.log(temp);
             value = temp + " / ";
             show.innerHTML = value;
         } else {
@@ -61,7 +57,6 @@ function qSelectors() {
         count++;
         if (count >= 2) {
             temp = eval(value);
-            console.log(temp);
             value = temp + ".";
             show.innerHTML = value;
         } else {
